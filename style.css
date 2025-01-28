@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*** Main Page Styling START ***/
+
+header {
+    height: 100px;
+    width: 100%;
+    background-image: url(images/headerimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header h1 {
+    text-align: center;
+    line-height: 100px;
+}
+
+header img {
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.infocontainer1 {
+    width: 100%;
+}
+
+.infocontainer2 {
+    width: 100%;
+}
+
+.box1 {
+    background-color: blue;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.box2 {
+    background-color: blueviolet;
+    width: 50%;
+    margin-top: 50px;
+    float: right;
+}
+
+.box3 {
+    background-color: rgb(247, 10, 10);
+    width: 50%;
+    margin-top: 100px;
+}
+
+.box4 {
+    background-color: rgb(8, 233, 19);
+    width: 50%;
+    margin-top: 50px;
+    float: right;
+}
+
+@keyframes boxes {
+    
+    0% {
+        opacity: 0;
+        transform: translateX(-210%);
+    }
+
+    50% {
+        opacity: 0.9;
+        transform: translateX(0);
+    }
+
+    75% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.anime1 {
+    opacity: 0;
+    animation-name: boxes;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.anime2 {
+    opacity: 0;
+    animation-name: boxes;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.anime3 {
+    opacity: 0;
+    animation-name: boxes;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+.anime4 {
+    opacity: 0;
+    animation-name: boxes;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
