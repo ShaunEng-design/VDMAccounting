@@ -224,6 +224,7 @@ header .fbpic {
     background-image: url(images/accounting.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    backgroun-attachment: fixed;
 }
 
 .main2 {
