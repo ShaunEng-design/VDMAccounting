@@ -371,11 +371,6 @@ footer {
     margin-left: 350px;
 }
 
-span {
-    color: red;
-    text-shadow: 2px 2px 10px black;
-    font-family: 'Courier New', Courier, monospace;
-}
 
 /*** Media Queries ***/
 
